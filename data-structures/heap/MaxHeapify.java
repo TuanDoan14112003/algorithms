@@ -7,7 +7,6 @@ public class MaxHeapify {
 	}
 
 	public static void maxHeapify(int[] list, int heapSize, int index) {
-		if (index >= heapSize) return;
 		int largest = index;
 		int leftChild = 2*index + 1;
 		int rightChild = 2*index + 2;
