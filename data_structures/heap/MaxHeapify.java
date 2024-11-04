@@ -8,7 +8,10 @@
 // Therefore, T(n) = O(lg(n)) = O(h)
 // where h is the height of the heap
 
+package data_structures.heap;
+
 import java.util.Arrays;
+
 public class MaxHeapify {
 	public static void main(String[] args) {
 		int[] list = new int[] {16,4,10,14,7,9,3,2,8,1};
