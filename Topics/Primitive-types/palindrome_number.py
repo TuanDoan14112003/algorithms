@@ -1,3 +1,8 @@
+# Given an integer x, return true if x is a palindrome, and false otherwise.
+
+# Time Complexity: O(n) where n is the number of digits of the input
+# Space Complexity: O(1)
+
 import math
 def is_palindrome(x):
 	if x < 0:
